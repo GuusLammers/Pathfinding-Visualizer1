@@ -3,7 +3,7 @@ import Visualizer from "./Visualizer/Visualizer";
 
 function PathfindingVisualizer() {
   return (
-    <div>
+    <div className="relative inset-0 w-full min-h-screen md:fixed">
       <NavBar></NavBar>
       <Visualizer></Visualizer>
     </div>
